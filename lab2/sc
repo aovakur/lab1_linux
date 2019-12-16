@@ -1,0 +1,1 @@
+while true; do if ( ./lab2_2 2>&1 | grep 01  ) ; then echo '+++++++'; break; else echo -n - ; fi; done
